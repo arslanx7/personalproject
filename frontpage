@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="BootStrap%20StyleSheet.css" rel="stylesheet" />
+    
+    
+</head>
+<body>
+
+    <div class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="jhg" class="navbar-brand">My Website</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" align="right">
+                <ul class="nav navbar-nav">
+                    <li>
+
+                        <a href="Login.aspx">Login</a>
+                    </li>
+                    <li class="active"><a href="Sign Up.aspx">Register</a></li>
+                    <li><a href="about.aspx">About Us</a></li>
+                </ul>
+                <form>
+                    
+                    <b>EmailID:</b>
+                    <input type="text" placeholder="EmailID" size="20" maxlength="20"/>
+                     <input type="password" placeholder="Password" size="20" maxlength="20"/>
+                     
+<input type="button" class="btn btn-warning" value="Login" />
+<input type="button" class="btn btn-success" value="Reset" />
+
+         
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+
+        <form>
+        <div class="title">Sign Up</div>
+     
+		<b>Fullname:</b><br/><br/>
+		<input type="text" placeholder="First name" size="15" maxlength="20"/>
+		<input type="text" placeholder="Last name" size="15" maxlength="20"/>
+		
+		<br/><br/>
+		<b>Password:</b><br/><br/>
+        
+       <input type="password" placeholder="Password" size="35" maxlength="20"/>
+        
+        <br><br>
+        <b>Email:</b><br/><br/>
+         <input type="text" placeholder="Email" size="35" maxlength="20"/>
+		
+		<br/><br/>
+		<b>Gender:</b><br/><br/>
+		<input type="radio" name="gender" value="male"/> Male
+		<input type="radio" name="gender" value="female"/> Female
+        <input type="radio" name="gender" value="Transgender"/> Transgender
+		
+		<br/><br/>
+		<b>Country:</b><br/><br/>
+		<select>
+			<option value="in">India</option>
+			<option value="us">United States</option>
+			<option value="uk">United Kingdom</option>
+			<option value="au">Australia</option>
+			<option value="ru">Russia</option>
+            <option value="pk">Pakistan</option>
+            <option value="jp">Japan</option>
+		</select>
+		
+		<br/><br/>
+		<input type="checkbox" value="accept"/>
+		<u>Accept Terms & Conditions </u><br/><br/>
+		
+		<div style="width: auto">
+
+                <input type="button" class="btn btn-warning" value="Sign Up" />
+                <input type="button" class="btn btn-success" value="Reset" />
+
+            </div>
+	</form>
+    </div>
+
+</body>
+</html>
